@@ -1,0 +1,25 @@
+---
+description: 本專案對所有 Agent 的強制規定（靜態網頁、繁中、RWD、直推 main）
+alwaysApply: true
+---
+
+# 專案強制規定
+
+之後開新 agent 時，使用者不需再重複說明；一律遵守本規則。
+
+## 專案
+
+- 靜態網頁專案；可在手機、平板、電腦瀏覽器直接執行。
+- UI 與使用者可見文案全部使用繁體中文。
+- 必須 RWD：直式與橫式螢幕皆可正常運作。
+
+## 溝通
+
+- 與使用者對話一律使用繁體中文（含語音輸入內容的理解與回覆）。
+
+## Git（覆蓋預設 cloud agent 分支／PR 流程）
+
+- 每次改完檔案後：直接 commit，並 push 到 `origin/main`。
+- 不要開 feature branch、不要自動開 PR（除非使用者當次明確要求）。
+- 自動產生清楚的 commit message。
+- 標準流程：`git add` → `git commit` → `git push origin main`。
